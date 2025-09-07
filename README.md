@@ -3,8 +3,10 @@
 A graphical user interface (GUI) designed for developers to directly interact with and debug **0xGasless smart accounts**.  
 This tool provides a clean, direct interface for testing gasless transactions.
 
-This project is a **developer-focused alternative** to the official 0xGasless AgentKit Chat Interface.  
-While the original repository uses a powerful AI chat agent for natural language commands, it requires an OpenRouter API key and credits to function.  
+This project is a **developer-focused alternative** to the official  
+👉 [**0xGasless AgentKit Chat Interface**](https://github.com/0xgasless/agentkit-chat-interface).  
+
+While the official repository uses a powerful AI chat agent for natural language commands, it requires an **OpenRouter API key** and credits to function.  
 
 This debugger was created to **bypass that requirement**, offering a direct, form-based way to test smart account functionalities without any AI service dependencies.
 
@@ -163,3 +165,4 @@ This is a **developer tool intended for testing and debugging purposes**.
 While care has been taken to handle private keys on the client-side, you should **never use a primary wallet** or a wallet with significant funds in any development environment.
 
 👉 Always use **burner wallets** for testing.
+
