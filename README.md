@@ -127,6 +127,16 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
+## 📚 Agent Toolkit Guide
+
+This repository also includes an additional guide:
+👉 [**AGENT\_TOOLKIT\_GUIDE.md**](./AGENT_TOOLKIT_GUIDE.md)
+
+The guide provides a **detailed overview of all the tools available in the 0xGasless AgentKit Toolkit**.
+These tools enable a wide range of **on-chain actions** and **data retrieval capabilities**, making it easier for developers to explore and extend the system.
+
+---
+
 ## 📂 File Structure Overview
 
 ```
@@ -140,8 +150,9 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 │   └── Wallet.tsx            # Component for creating/importing wallets and managing cookies.
 ├── lib/
 │   └── wallet.ts             # Utility functions for generating keys and addresses.
-└── public/
-    └── 0xGasless.png         # Project logo.
+├── public/
+│   └── 0xGasless.png         # Project logo.
+└── AGENT_TOOLKIT_GUIDE.md    # Detailed guide on all available AgentKit tools
 ```
 
 ---
@@ -152,5 +163,3 @@ This is a **developer tool intended for testing and debugging purposes**.
 While care has been taken to handle private keys on the client-side, you should **never use a primary wallet** or a wallet with significant funds in any development environment.
 
 👉 Always use **burner wallets** for testing.
-
-```
